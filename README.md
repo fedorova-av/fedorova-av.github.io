@@ -1,2 +1,0 @@
-# fedorova-av
-CV
