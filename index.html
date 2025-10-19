@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra | Data Scientist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav>
+        <div class="logo">Alexandra | Data Scientist</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
+            <li><a href="#achievements" data-i18n="nav.achievements">Achievements</a></li>
+            <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+            <li><a href="#work" data-i18n="nav.work">Work</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            <li>
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <span class="lang-separator">/</span>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Главный контент -->
+    <section class="hero">
+        <h1 data-i18n="hero.title">Hi, I'm Alexandra</h1>
+    </section>
+
+    <!-- Секция About -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">About Me</h2>
+            <div class="about-container">
+                <div class="about-image">
+                    <!-- Замените src на путь к вашему фото -->
+                    <img src="MG_4464_72.jpg" alt="Alexandra">
+                </div>
+                <div class="about-content">
+
+                    <h2 data-i18n="about.role">Data Scientist</h2>
+                    
+                    <div class="about-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label" data-i18n="about.locationLabel">Location</span>
+                                <span class="info-value" data-i18n="about.location">Saint-Petersburg, Russia</span>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label" data-i18n="about.englishLabel">English Level</span>
+                                <span class="info-value" data-i18n="about.englishLevel">Advanced (C1)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-section">
+                        <h3 data-i18n="about.education">Education</h3>
+                        <div class="education-item">
+                            <h4 data-i18n="about.masters">Master's degree in Machine Learning and Data Analysis</h4>
+                            <p class="institution", data-i18n="about.university">HSE University</p>
+                            <p class="date">2025 - 2027</p>
+                        </div>
+                        <div class="education-item">
+                            <h4 data-i18n="about.bachelors">Bachelor's degree in Management</h4>
+                            <p class="institution", data-i18n="about.university">HSE University</p>
+                            <p class="date">2021 - 2025</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3 data-i18n="about.skills">Technical Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">Python</div>
+                            <div class="skill-item">scikit-learn</div>
+                            <div class="skill-item">PyTorch</div>
+                            <div class="skill-item">Pandas</div>
+                            <div class="skill-item">SQL</div>
+                            <div class="skill-item">R</div>
+                            <div class="skill-item">Git</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Секция Achievements -->
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="achievements.title">Achievements</h2>
+            
+            <div class="achievements-grid">
+                
+                <!-- Курсы -->
+                <div class="achievement-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 data-i18n="achievements.courses">Courses & Certifications</h3>
+                    </div>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <h4 data-i18n="achievements.course1.title">Deep Learning Engineer:NLP</h4>
+                            <p class="achievement-meta" data-i18n="achievements.course1.meta">KARPOV.COURSES · 2024</p>
+                            <p class="achievement-description" data-i18n="achievements.course1.description">
+                               Text processing and feature extraction using modern neural networks.
+                                Applied tasks: classification, regression, named entity recognition, text generation, seq2seq.
+                        </div>
+                        
+                        <div class="achievement-item">
+                            <h4 data-i18n="achievements.course2.title">Data processing and analysis</h4>
+                            <p class="achievement-meta" data-i18n="achievements.course2.meta">HSE · 2022-2024</p>
+                            <p class="achievement-description" data-i18n="achievements.course2.description">
+                                Completed a minor in analytics, learning modern methods and tools for solving practical data challenges across various domains—from customer and UX-analytics to digital social and humanitarian sciences.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Достижения -->
+                <div class="achievement-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3 data-i18n="achievements.awards">Awards & Honors</h3>
+                    </div>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <h4 data-i18n="achievements.award1.title">This section will be filled in the future</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Публикации -->
+                <div class="achievement-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3 data-i18n="achievements.publications">Publications</h3>
+                    </div>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <h4 data-i18n="achievements.publication1.title">"This section will be filled in the future"</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция Experience -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="experience.title">Work Experience</h2>
+            <div class="timeline">
+                
+                <!-- Опыт 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date" data-i18n="experience.job1.date">October 2024 - June 2025</div>
+                        <h3 class="timeline-position" data-i18n="experience.job1.position">Purchasing Department Manager</h3>
+                        <p class="timeline-company" data-i18n="experience.job1.company">Drogerie Retail LLC</p>
+                        <ul class="timeline-description">
+                            <li data-i18n="experience.job1.point1">participation in a working group on the implementation of artificial intelligence in the work of the procurement department</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Секция Work с проектами -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="work.title">My Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Проект 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title" data-i18n="work.project1.title">Demand prediction</h3>
+                        <a href="#" class="github-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-subtitle" data-i18n="work.project1.subtitle">Time series</p>
+                    <p class="project-description" data-i18n="work.project1.description">
+                        Developed a new system, which combines two approaches (ABC-XYZ-analysis and AI), to predict product demand using historical sales data, reducing inventory costs by and improving stock availability. The improvement of accuracy in demand prediction consists approximately 40%
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">python</span>
+                        <span class="tag">scikit-learn</span>
+                        <span class="tag">PyTorch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Секция контактов -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 data-i18n="contact.title">Work With Me</h2>
+            
+            <div class="contact-info">
+                <p data-i18n="contact.subtitle">Get in touch through any of the platforms below</p>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://t.me/kaas_sandra" class="social-link">
+                    <div class="social-icon">
+                        <i class="fab fa-telegram-plane"></i>
+                    </div>
+                    <span class="social-text">Telegram</span>
+                </a>
+                <a href="https://github.com/fedorova-av" class="social-link">
+                    <div class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span class="social-text">GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
